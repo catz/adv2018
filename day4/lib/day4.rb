@@ -43,13 +43,11 @@ module Day4
         |r, range| range.to_a.each{|d| r[d] ||=0; r[d]+=1}; r
       }
 
-      time_intersection = times_sleep.max_by{
-        |k, v| v
-      }[0]
-
       sleep_minute = times_sleep.max_by{
         |k, v| v
       }
+
+      time_intersection = sleep_minute[0]
 
       [guard, sleep_time, time_intersection, sleep_minute]
     }
