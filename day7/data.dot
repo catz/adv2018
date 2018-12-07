@@ -1,0 +1,535 @@
+digraph RGL__DirectedAdjacencyGraph {
+    G [
+        fontsize = 8,
+        label = G
+    ]
+
+    N [
+        fontsize = 8,
+        label = N
+    ]
+
+    B [
+        fontsize = 8,
+        label = B
+    ]
+
+    P [
+        fontsize = 8,
+        label = P
+    ]
+
+    Q [
+        fontsize = 8,
+        label = Q
+    ]
+
+    F [
+        fontsize = 8,
+        label = F
+    ]
+
+    U [
+        fontsize = 8,
+        label = U
+    ]
+
+    H [
+        fontsize = 8,
+        label = H
+    ]
+
+    A [
+        fontsize = 8,
+        label = A
+    ]
+
+    C [
+        fontsize = 8,
+        label = C
+    ]
+
+    S [
+        fontsize = 8,
+        label = S
+    ]
+
+    K [
+        fontsize = 8,
+        label = K
+    ]
+
+    M [
+        fontsize = 8,
+        label = M
+    ]
+
+    O [
+        fontsize = 8,
+        label = O
+    ]
+
+    V [
+        fontsize = 8,
+        label = V
+    ]
+
+    L [
+        fontsize = 8,
+        label = L
+    ]
+
+    E [
+        fontsize = 8,
+        label = E
+    ]
+
+    W [
+        fontsize = 8,
+        label = W
+    ]
+
+    J [
+        fontsize = 8,
+        label = J
+    ]
+
+    R [
+        fontsize = 8,
+        label = R
+    ]
+
+    D [
+        fontsize = 8,
+        label = D
+    ]
+
+    X [
+        fontsize = 8,
+        label = X
+    ]
+
+    I [
+        fontsize = 8,
+        label = I
+    ]
+
+    Z [
+        fontsize = 8,
+        label = Z
+    ]
+
+    Y [
+        fontsize = 8,
+        label = Y
+    ]
+
+    T [
+        fontsize = 8,
+        label = T
+    ]
+
+    G -> N [
+        fontsize = 8
+    ]
+
+    G -> P [
+        fontsize = 8
+    ]
+
+    G -> O [
+        fontsize = 8
+    ]
+
+    G -> H [
+        fontsize = 8
+    ]
+
+    G -> L [
+        fontsize = 8
+    ]
+
+    N -> B [
+        fontsize = 8
+    ]
+
+    N -> R [
+        fontsize = 8
+    ]
+
+    N -> S [
+        fontsize = 8
+    ]
+
+    N -> Q [
+        fontsize = 8
+    ]
+
+    N -> O [
+        fontsize = 8
+    ]
+
+    N -> D [
+        fontsize = 8
+    ]
+
+    B -> Q [
+        fontsize = 8
+    ]
+
+    B -> L [
+        fontsize = 8
+    ]
+
+    B -> Y [
+        fontsize = 8
+    ]
+
+    P -> Q [
+        fontsize = 8
+    ]
+
+    P -> T [
+        fontsize = 8
+    ]
+
+    P -> I [
+        fontsize = 8
+    ]
+
+    P -> Y [
+        fontsize = 8
+    ]
+
+    Q -> J [
+        fontsize = 8
+    ]
+
+    Q -> X [
+        fontsize = 8
+    ]
+
+    Q -> Y [
+        fontsize = 8
+    ]
+
+    Q -> U [
+        fontsize = 8
+    ]
+
+    Q -> T [
+        fontsize = 8
+    ]
+
+    F -> U [
+        fontsize = 8
+    ]
+
+    F -> S [
+        fontsize = 8
+    ]
+
+    F -> E [
+        fontsize = 8
+    ]
+
+    F -> B [
+        fontsize = 8
+    ]
+
+    F -> V [
+        fontsize = 8
+    ]
+
+    F -> A [
+        fontsize = 8
+    ]
+
+    F -> Z [
+        fontsize = 8
+    ]
+
+    F -> D [
+        fontsize = 8
+    ]
+
+    U -> J [
+        fontsize = 8
+    ]
+
+    U -> X [
+        fontsize = 8
+    ]
+
+    U -> O [
+        fontsize = 8
+    ]
+
+    U -> L [
+        fontsize = 8
+    ]
+
+    H -> A [
+        fontsize = 8
+    ]
+
+    H -> Y [
+        fontsize = 8
+    ]
+
+    H -> Q [
+        fontsize = 8
+    ]
+
+    H -> W [
+        fontsize = 8
+    ]
+
+    H -> E [
+        fontsize = 8
+    ]
+
+    H -> K [
+        fontsize = 8
+    ]
+
+    A -> K [
+        fontsize = 8
+    ]
+
+    A -> I [
+        fontsize = 8
+    ]
+
+    A -> L [
+        fontsize = 8
+    ]
+
+    A -> Q [
+        fontsize = 8
+    ]
+
+    A -> T [
+        fontsize = 8
+    ]
+
+    C -> S [
+        fontsize = 8
+    ]
+
+    S -> X [
+        fontsize = 8
+    ]
+
+    K -> O [
+        fontsize = 8
+    ]
+
+    K -> L [
+        fontsize = 8
+    ]
+
+    K -> X [
+        fontsize = 8
+    ]
+
+    M -> O [
+        fontsize = 8
+    ]
+
+    M -> V [
+        fontsize = 8
+    ]
+
+    M -> R [
+        fontsize = 8
+    ]
+
+    M -> Q [
+        fontsize = 8
+    ]
+
+    O -> X [
+        fontsize = 8
+    ]
+
+    V -> L [
+        fontsize = 8
+    ]
+
+    L -> X [
+        fontsize = 8
+    ]
+
+    E -> L [
+        fontsize = 8
+    ]
+
+    E -> S [
+        fontsize = 8
+    ]
+
+    E -> K [
+        fontsize = 8
+    ]
+
+    E -> Y [
+        fontsize = 8
+    ]
+
+    E -> D [
+        fontsize = 8
+    ]
+
+    E -> U [
+        fontsize = 8
+    ]
+
+    E -> X [
+        fontsize = 8
+    ]
+
+    E -> J [
+        fontsize = 8
+    ]
+
+    E -> R [
+        fontsize = 8
+    ]
+
+    W -> J [
+        fontsize = 8
+    ]
+
+    W -> Y [
+        fontsize = 8
+    ]
+
+    W -> U [
+        fontsize = 8
+    ]
+
+    W -> Z [
+        fontsize = 8
+    ]
+
+    W -> Q [
+        fontsize = 8
+    ]
+
+    J -> K [
+        fontsize = 8
+    ]
+
+    J -> X [
+        fontsize = 8
+    ]
+
+    J -> T [
+        fontsize = 8
+    ]
+
+    J -> L [
+        fontsize = 8
+    ]
+
+    R -> D [
+        fontsize = 8
+    ]
+
+    R -> I [
+        fontsize = 8
+    ]
+
+    R -> U [
+        fontsize = 8
+    ]
+
+    R -> X [
+        fontsize = 8
+    ]
+
+    R -> T [
+        fontsize = 8
+    ]
+
+    D -> S [
+        fontsize = 8
+    ]
+
+    D -> X [
+        fontsize = 8
+    ]
+
+    I -> L [
+        fontsize = 8
+    ]
+
+    I -> Z [
+        fontsize = 8
+    ]
+
+    I -> J [
+        fontsize = 8
+    ]
+
+    I -> X [
+        fontsize = 8
+    ]
+
+    I -> Y [
+        fontsize = 8
+    ]
+
+    I -> T [
+        fontsize = 8
+    ]
+
+    Z -> X [
+        fontsize = 8
+    ]
+
+    Z -> O [
+        fontsize = 8
+    ]
+
+    Z -> J [
+        fontsize = 8
+    ]
+
+    Z -> L [
+        fontsize = 8
+    ]
+
+    Z -> Y [
+        fontsize = 8
+    ]
+
+    Y -> T [
+        fontsize = 8
+    ]
+
+    Y -> O [
+        fontsize = 8
+    ]
+
+    Y -> L [
+        fontsize = 8
+    ]
+
+    Y -> X [
+        fontsize = 8
+    ]
+
+    T -> L [
+        fontsize = 8
+    ]
+
+    T -> K [
+        fontsize = 8
+    ]
+
+    T -> O [
+        fontsize = 8
+    ]
+}
